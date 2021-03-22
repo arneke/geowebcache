@@ -1,0 +1,8 @@
+version: '3.6'
+services:
+  gwc:
+    image: 72bbc4226f7c
+    ports:
+    - "8090:8080"
+    volumes:
+    - /Users/ak/gwc:/var/cache/geowebcache
