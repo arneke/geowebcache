@@ -253,6 +253,13 @@ public class MetaTile implements TileResponseReceiver {
             @SuppressWarnings("PMD.CloseResource")
             ImageInputStream imgStream =
                     new ResourceImageInputStream(((ByteArrayResource) buffer).getInputStream());
+            // Iterator<ImageReader> iri = ImageIO.getImageReadersByFormatName("jpeg");
+
+            // System.out.println("here!");
+            // while (iri.hasNext()) {
+            //    System.out.println(iri.next().getClass().getName());
+            // }
+
             RenderedImage metaTiledImage = ImageIO.read(imgStream); // read closes the stream for us
             setImage(metaTiledImage);
         } catch (IOException ioe) {

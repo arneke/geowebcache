@@ -242,6 +242,7 @@ public class WMSHttpHelper extends WMSSourceHelper {
                         String uri = method.getURI().getURI();
                         log.error("No response for " + method.getName() + " " + uri);
                     } else {
+                        String uri = method.getURI().getURI();
                         try (ReadableByteChannel channel = Channels.newChannel(inStream)) {
                             target.transferFrom(channel);
                         }

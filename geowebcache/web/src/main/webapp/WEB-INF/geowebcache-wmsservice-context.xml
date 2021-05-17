@@ -189,6 +189,7 @@
 		</constructor-arg>
 		<constructor-arg>
 			<list>
+				<!--  value>com.twelvemonkeys.imageio.plugins.jpeg.JPEGImageReaderSpi</value  -->
 				<value>com.sun.media.imageioimpl.plugins.jpeg.CLibJPEGImageReaderSpi</value>
 				<value>com.sun.imageio.plugins.jpeg.JPEGImageReaderSpi</value>
 			</list>

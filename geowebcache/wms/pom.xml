@@ -53,6 +53,12 @@
 		<groupId>it.geosolutions.imageio-ext</groupId>
 		<artifactId>imageio-ext-streams</artifactId>
 	</dependency>
+	
+	<dependency>
+      <groupId>com.twelvemonkeys.imageio</groupId>
+      <artifactId>imageio-jpeg</artifactId>
+      <version>3.6.4</version>
+    </dependency>
 
     <!-- test dependencies -->
     <dependency>

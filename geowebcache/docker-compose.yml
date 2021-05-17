@@ -1,8 +1,8 @@
 version: '3.6'
 services:
   gwc:
-    image: 72bbc4226f7c
+    image: geowebcache:9-jre11.b1
     ports:
-    - "8090:8080"
+    - "8080:8080"
     volumes:
     - /Users/ak/gwc:/var/cache/geowebcache
